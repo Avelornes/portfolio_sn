@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio de Séverine"> <!-- provisoire -->
+    <meta name="keywords" content="portfolio, normandie, granville, avranches, site, dev, code, web"/>
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="@GiruFrei"/>
+    <meta name="twitter:title" content="Séverine Noël"/>
+    <meta name="twitter:description" content="Portfolio de Séverine"/> <!-- provisoire -->
+    <meta name="twitter:image" content="https://severine-noel.fr/illu.jpg"/>
+    <!-- Facebook -->
+    <meta property="og:title" content="Séverine Noël"/>
+    <meta property="og:description" content="Porfolio de Séverine"/> <!-- provisoire -->
+    <meta property="og:image" content="https://severine-noel.fr/illu.jpg"/>
+
+    <link rel="stylesheet" href="../materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="../css/accueil.css">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="../JQuery/jquery-3.1.1.min.js"></script>
+    <script src="../materialize/js/materialize.min.js"></script>
+    <script src="ressources/js/custom.js"></script>
+    <title>Séverine Noël</title> <!-- titre provisoire -->
+</head>
+<body>
+<header>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="https://severine-noel.fr" class="brand-logo center" title="Accueil">Portfolio Séverine Noël</a>
+            </div>
+        </nav>
+    </div>
+</header>
+<main>
+    <div class="parallax-container">
+        <div class="parallax"><img src="../Ressources/illu.jpg"></div>
+    </div>
+    <div id="a_propos" class="section white">
+        <div class="row container">
+            <h2 class="header">A propos</h2>
+            <p class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                nisl mi, aliquam non tempus id, molestie vel eros. Sed tincidunt ut nisl vel consectetur. Suspendisse
+                mattis in odio ut auctor. Etiam eget pellentesque ligula. Aenean aliquam, diam sit amet faucibus
+                eleifend, nisl sapien luctus augue, ut placerat justo nibh eget elit. Nunc malesuada scelerisque
+                maximus. Sed ut molestie erat. Proin tristique blandit suscipit. Sed enim tortor, tincidunt in convallis
+                sed, elementum a mauris. Vivamus nec sapien sed nunc vestibulum porttitor. Nunc ut sem suscipit,
+                vehicula ex quis, finibus leo.<br/>
+
+                Curabitur malesuada augue libero, et sagittis purus vulputate ut. Integer mattis lacus in arcu fermentum
+                dictum. Donec venenatis augue et est dignissim mattis. Aliquam faucibus nibh vel lorem condimentum
+                tempor. Curabitur mi felis, sodales placerat lacus at, porttitor dictum turpis. Fusce mollis mauris non
+                elit molestie condimentum. Ut venenatis elementum turpis, non placerat ante placerat in. Sed eget ante
+                diam. Phasellus quis ligula in tellus aliquet sodales.<br/>
+
+                Quisque tempor libero eget gravida suscipit. Suspendisse venenatis varius mi, eget tincidunt mauris
+                eleifend a. Nam in velit quis diam ultrices cursus. Aenean tristique justo vitae ultrices ullamcorper.
+                Vivamus augue diam, laoreet sit amet est in, mollis finibus nisi. Vivamus sodales eget ante vel congue.
+                Nunc sed molestie lacus, ut vestibulum nisi. In bibendum at lectus non faucibus. Aliquam molestie, metus
+                id bibendum vehicula, tortor velit gravida quam, vel convallis nulla dui eu orci.</p>
+            <!-- Modal Trigger -->
+            <a class="waves-effect waves-light btn z-depth-4" href="#modal1">Contact</a>
+
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <h4>Formulaire de contact</h4>
+                    <!-- formulaire de contact -->
+                    <div class="row">
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="first_name" type="text" class="validate">
+                                    <label for="first_name">Prénom</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="last_name" type="text" class="validate">
+                                    <label for="last_name">Nom</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                    <label for="textarea1">Votre message</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="email" type="email" class="validate">
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                            <button class="btn waves-effect waves-light" type="submit" name="action">Envoyer
+                                <i class="material-icons right">send</i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Fermer</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="../Ressources/coffee_para.jpg"></div>
+    </div>
+    <div id="projets" class="section white">
+        <div class="row container">
+            <h2 class="header">Mes projets</h2>
+            <p class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                nisl mi, aliquam non tempus id, molestie vel eros. Sed tincidunt ut nisl vel consectetur. Suspendisse
+                mattis in odio ut auctor. Etiam eget pellentesque ligula. Aenean aliquam, diam sit amet faucibus
+                eleifend, nisl sapien luctus augue, ut placerat justo nibh eget elit. Nunc malesuada scelerisque
+                maximus. Sed ut molestie erat. Proin tristique blandit suscipit. Sed enim tortor, tincidunt in convallis
+                sed, elementum a mauris. Vivamus nec sapien sed nunc vestibulum porttitor. Nunc ut sem suscipit,
+                vehicula ex quis, finibus leo.<br/>
+
+                Curabitur malesuada augue libero, et sagittis purus vulputate ut. Integer mattis lacus in arcu fermentum
+                dictum. Donec venenatis augue et est dignissim mattis. Aliquam faucibus nibh vel lorem condimentum
+                tempor. Curabitur mi felis, sodales placerat lacus at, porttitor dictum turpis. Fusce mollis mauris non
+                elit molestie condimentum. Ut venenatis elementum turpis, non placerat ante placerat in. Sed eget ante
+                diam. Phasellus quis ligula in tellus aliquet sodales.<br/>
+
+                Quisque tempor libero eget gravida suscipit. Suspendisse venenatis varius mi, eget tincidunt mauris
+                eleifend a. Nam in velit quis diam ultrices cursus. Aenean tristique justo vitae ultrices ullamcorper.
+                Vivamus augue diam, laoreet sit amet est in, mollis finibus nisi. Vivamus sodales eget ante vel congue.
+                Nunc sed molestie lacus, ut vestibulum nisi. In bibendum at lectus non faucibus. Aliquam molestie, metus
+                id bibendum vehicula, tortor velit gravida quam, vel convallis nulla dui eu orci.</p>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="../Ressources/para_2.jpg"></div>
+    </div>
+</main>
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="black-text">Footer Content</h5>
+                <p class="black-text text-lighten-4">You can use rows and columns here to organize your footer
+                    content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="black-text">Me suivre</h5>
+                <ul>
+                    <li><a class="black-text text-lighten-3" href="https://fr.linkedin.com/in/severinenoel14
+">Linkedin</a></li>
+                    <li><a class="black-text text-lighten-3" href="https://twitter.com/GiruFrei"
+                           target="_blank">Twitter</a></li>
+                    <li><a class="black-text text-lighten-3" href="https://github.com/Avelornes"
+                           target="_blank">GitHub</a></li>
+                    <li><a class="black-text text-lighten-3" href="https://www.instagram.com/aponey_supreme/"
+                           target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            <span class="black-text text-lighten-4 left">© 2017 Séverine Noël</span>
+            <a class="black-text text-lighten-4 right" href="mentions.html" target="_blank">Mentions légales</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
