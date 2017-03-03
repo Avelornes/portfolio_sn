@@ -14,14 +14,13 @@
     <meta property="og:title" content="Séverine Noël"/>
     <meta property="og:description" content="Porfolio de Séverine"/> <!-- provisoire -->
     <meta property="og:image" content="https://severine-noel.fr/illu.jpg"/>
-    <base href="http://phpstorm.localhost/portofolio_sn/" />
+
+    <base href="http://phpstorm.localhost/portofolio_sn/"/>
+
     <link rel="stylesheet" href="ressources/librairies/materialize/css/materialize.min.css">
     <link rel="stylesheet" href="ressources/css/custom.css">
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="ressources/librairies/font-awesome-4.7.0/css/font-awesome.min.css">
-    <script src="ressources/librairies/jquery/jquery-3.1.1.min.js"></script>
-    <script src="ressources/librairies/materialize/js/materialize.min.js"></script>
-    <script src="ressources/js/custom.js"></script>
     <title>Séverine Noël</title> <!-- titre provisoire -->
 </head>
 <body>
@@ -110,25 +109,24 @@
     <div id="projets" class="section white">
         <div class="row container">
             <h2 class="header">Mes projets</h2>
-            <p class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                nisl mi, aliquam non tempus id, molestie vel eros. Sed tincidunt ut nisl vel consectetur. Suspendisse
-                mattis in odio ut auctor. Etiam eget pellentesque ligula. Aenean aliquam, diam sit amet faucibus
-                eleifend, nisl sapien luctus augue, ut placerat justo nibh eget elit. Nunc malesuada scelerisque
-                maximus. Sed ut molestie erat. Proin tristique blandit suscipit. Sed enim tortor, tincidunt in convallis
-                sed, elementum a mauris. Vivamus nec sapien sed nunc vestibulum porttitor. Nunc ut sem suscipit,
-                vehicula ex quis, finibus leo.<br/>
-
-                Curabitur malesuada augue libero, et sagittis purus vulputate ut. Integer mattis lacus in arcu fermentum
-                dictum. Donec venenatis augue et est dignissim mattis. Aliquam faucibus nibh vel lorem condimentum
-                tempor. Curabitur mi felis, sodales placerat lacus at, porttitor dictum turpis. Fusce mollis mauris non
-                elit molestie condimentum. Ut venenatis elementum turpis, non placerat ante placerat in. Sed eget ante
-                diam. Phasellus quis ligula in tellus aliquet sodales.<br/>
-
-                Quisque tempor libero eget gravida suscipit. Suspendisse venenatis varius mi, eget tincidunt mauris
-                eleifend a. Nam in velit quis diam ultrices cursus. Aenean tristique justo vitae ultrices ullamcorper.
-                Vivamus augue diam, laoreet sit amet est in, mollis finibus nisi. Vivamus sodales eget ante vel congue.
-                Nunc sed molestie lacus, ut vestibulum nisi. In bibendum at lectus non faucibus. Aliquam molestie, metus
-                id bibendum vehicula, tortor velit gravida quam, vel convallis nulla dui eu orci.</p>
+            <div class="row">
+                <div class="col s3 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="ressources/img/ouat2.png">
+                            <!-- <span class="card-title black-text">Once Upon a Time</span> -->
+                        </div>
+                        <div class="card-content">
+                            <p>Once Upon a Time est un blog de chroniques et de réflexions littéraires fondé en 2012,
+                                actuellement
+                                sous WordPress. </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="http://iletaitunefoisouat.fr" target="_blank">Once Upon a Time</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="parallax-container">
@@ -165,5 +163,8 @@
         </div>
     </div>
 </footer>
+<script src="ressources/librairies/jquery/jquery-3.1.1.min.js"></script>
+<script src="ressources/librairies/materialize/js/materialize.min.js"></script>
+<script src="ressources/js/custom.js"></script>
 </body>
 </html>
