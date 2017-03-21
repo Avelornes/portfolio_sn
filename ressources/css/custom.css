@@ -6,8 +6,10 @@ p.titre_site {
     font-family: kaushan_scriptregular, Roboto, sans-serif;
     font-size: 5em;
     text-align: center;
+    /*color: transparent;*/
     margin-top: 10%;
-    opacity: 0.8;
+    opacity: 0.7;
+    background-color: white;
 }
 
 body {
@@ -43,5 +45,16 @@ footer.page-footer {
     margin: 0;
 }
 
+p.cm, p.dev, p.content, p.unix{
+    text-align: center;
+}
 
+i.fa.fa-users, i.fa.fa-code, i.fa.fa-pencil, i.fa.fa-terminal{
+    color: #cfd8dc;
+    text-shadow: 1px 1px 1px #78909c;
+}
 
+i.fa.fa-users:hover, i.fa.fa-code:hover, i.fa.fa-pencil:hover,i.fa.fa-terminal:hover{
+    color: #78909c;
+    text-shadow: 1px 1px 1px #cfd8dc;
+}
