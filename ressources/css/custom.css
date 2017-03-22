@@ -41,7 +41,7 @@ ul li {
 }
 
 footer.page-footer {
-    background-color: #cfd8dc;
+    background-color: #bbdefb;
     margin: 0;
 }
 
@@ -50,11 +50,49 @@ p.cm, p.dev, p.content, p.unix{
 }
 
 i.fa.fa-users, i.fa.fa-code, i.fa.fa-pencil, i.fa.fa-terminal{
-    color: #cfd8dc;
-    text-shadow: 1px 1px 1px #78909c;
+    color: #bbdefb;
+    text-shadow: 1px 1px 1px #90caf9;
 }
 
 i.fa.fa-users:hover, i.fa.fa-code:hover, i.fa.fa-pencil:hover,i.fa.fa-terminal:hover{
-    color: #78909c;
-    text-shadow: 1px 1px 1px #cfd8dc;
+    color: #90caf9;
+    text-shadow: 1px 1px 1px #bbdefb;
 }
+
+h5.section_middle, p.section_middle
+{
+    text-align: center;
+}
+ul.collapsible{
+    margin-right: 10%;
+}
+
+@media all and (max-device-width: 480px){
+    p.titre_site{
+        font-size: 7em;
+    }
+    span, p, i.fa.fa-linkedin, i.fa.fa-twitter, i.fa.fa-github, i.fa.fa-instagram{
+        font-size: 2em;
+    }
+
+    h2{
+        font-size: 5em;
+    }
+
+    h5{
+        font-size: 3em;
+    }
+
+    div.collapsible-header{
+        font-size: 2em;
+    }
+
+    .card-title, a{
+        font-size: 1em;
+    }
+
+    a.follow{
+        font-size: 2em;
+    }
+}
+
