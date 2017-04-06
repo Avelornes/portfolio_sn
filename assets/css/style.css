@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.parallax.para_titre {
+    filter: opacity(60%) contrast(170%);
+}
+
+p.titre_site {
+    font-family: kaushan_scriptregular, Roboto, sans-serif;
+    font-size: 5em;
+    text-align: center;
+    margin-top: 10%;
+    opacity: 0.7;
+    background-color: white;
+}
+
+h2 {
+    font-family: kaushan_scriptregular, Roboto, sans-serif;
+}
+
+h5.section_middle, p.section_middle
+{
+    text-align: center;
+}
+
+ul li {
+    font-family: Roboto, Cantarell, sans-serif;
+}
+
+footer.page-footer {
+    background-color: #bbdefb;
+    margin: 0;
+}
+
+p.cm, p.dev, p.content, p.unix{
+    text-align: center;
+}
+
+i.fa.fa-users, i.fa.fa-code, i.fa.fa-pencil, i.fa.fa-terminal{
+    color: #bbdefb;
+    text-shadow: 1px 1px 1px #90caf9;
+}
+
+i.fa.fa-users:hover, i.fa.fa-code:hover, i.fa.fa-pencil:hover,i.fa.fa-terminal:hover{
+    color: #90caf9;
+    text-shadow: 1px 1px 1px #bbdefb;
+}
+
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('police/kaushanscript-regular-webfont.woff2') format('woff2'),
+    url('police/kaushanscript-regular-webfont.woff') format('woff'),
+    url('police/KaushanScript-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media all and (max-device-width: 480px){
+    p.titre_site{
+        font-size: 7em;
+    }
+    span, p, i.fa.fa-linkedin, i.fa.fa-twitter, i.fa.fa-github, i.fa.fa-instagram{
+        font-size: 2em;
+    }
+
+    h2{
+        font-size: 5em;
+    }
+
+    h5{
+        font-size: 3em;
+    }
+
+    div.collapsible-header{
+        font-size: 2em;
+    }
+
+    .card-title, a{
+        font-size: 1em;
+    }
+
+    a.follow{
+        font-size: 2em;
+    }
+}
+
