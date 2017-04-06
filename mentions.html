@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Portfolio de Séverine Noël">
-    <meta name="keywords" content="portfolio, normandie, granville, avranches, site, dev, code, web, manche, reseau, linux, community manager"/>
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:site" content="@GiruFrei"/>
@@ -15,12 +14,12 @@
     <meta property="og:description" content="Porfolio de Séverine Noël"/>
     <meta property="og:image" content="https://severine-noel.fr/illu.jpg"/>
 
-    <base href="https://severine-noel.fr/"/>
+    <base href="http://phpstorm.localhost/portofolio_sn/"/>
 
-    <link rel="stylesheet" href="ressources/librairies/materialize/css/materialize.min.css">
-    <link rel="stylesheet" href="ressources/css/custom.css">
+    <link rel="stylesheet" href="assets/librairies/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="ressources/librairies/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/librairies/font-awesome-4.7.0/css/font-awesome.min.css">
     <title>Séverine Noël - Mentions légales</title>
 </head>
 <body>
@@ -30,7 +29,7 @@
     <div class="parallax-container">
         <p class="titre_site">Séverine Noël<br/>
             - Portfolio -</p>
-        <div class="parallax para_titre"><img src="ressources/img/accueil.jpg"></div>
+        <div class="parallax para_titre"><img src="assets/img/accueil.jpg"></div>
     </div>
     <div class="section white">
         <div class="row container">
@@ -114,13 +113,11 @@
 
                 <h5>Hébergement</h5>
                 <div class="center">
-                    <img src="ressources/img/ovh.png" alt="OVH SAS"><br/>
-                    <strong><a href="https://ovh.com" target="_blank">OVH SAS</a></strong>
-                    <address>
-                        2 rue Kellermann<br/>
-                        59100 Roubaix<br/>
-                        France.
-                    </address>
+                        <img src="assets/img/logo512.png" alt="Valentin DEVILLE"><br/>
+                        <strong><a href="https://www.valentin-deville.eu/" target="_blank">Valentin DEVILLE</a></strong>
+                        <address>
+                            L'hébergement est gracieusement offert par Valentin DEVILLE
+                        </address>
                 </div>
                 <h5>Limite de responsabilité</h5>
 
@@ -177,7 +174,7 @@
         </div>
     </div>
     <div class="parallax-container">
-        <div class="parallax"><img src="ressources/img/end.jpg"></div>
+        <div class="parallax"><img src="assets/img/end.jpg"></div>
     </div>
 </main>
 <footer class="page-footer">
@@ -185,16 +182,13 @@
         <div class="row">
             <div class="col l6 s12">
                 <h5 class="black-text">Contact</h5>
-                <ul class="collapsible" data-collapsible="accordion">
-                    <li>
-                        <div class="collapsible-header"><i class="fa fa-envelope-o" aria-hidden="true"></i>Mail</div>
-                        <div class="collapsible-body"><p>contact@severine-noel.fr</p></div>
+                <ul>
+                    <li><i class="fa fa-envelope-o fa-1x" aria-hidden="true"></i> <a
+                            class="follow black-text text-lighten-3" href="mailto:contact@severine-noel.fr">contact@severine-noel.fr</a>
                     </li>
-                    <li>
-                        <div class="collapsible-header"><i class="fa fa-mobile" aria-hidden="true"></i>
-                            Téléphone</div>
-                        <div class="collapsible-body"><p>06.77.59.03.88</p></div>
-                    </li>
+                    <li><i class="fa fa-mobile fa-2x" aria-hidden="true"></i> <a
+                            class="follow black-text text-lighten-3"
+                            href="callto:06.77.59.03.88">06.77.59.03.88</a></li>
                 </ul>
             </div>
             <div class="col l4 offset-l2 s12">
@@ -223,6 +217,9 @@
         </div>
     </div>
 </footer>
+<script src="assets/librairies/jquery/jquery-3.1.1.min.js"></script>
+<script src="assets/librairies/materialize/js/materialize.min.js"></script>
+<script src="assets/js/custom.js"></script>
 </body>
 </html>
 
